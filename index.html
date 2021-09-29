@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obligatorio - Programación 1</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/clases.js"></script>
+  <script src="js/codigo.js"></script>
+  <link type="text/css" href="css/plantilla.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="contenedor">
+    <div id="cabezal" class="clearfix">
+
+      <img id="logo" src="http://chefblog.develotion.com/logochef.png" alt="logo">
+      <p id="bienvenida"></p>
+      <input type="button" id="btnLogout" value="Logout">
+
+      <div id="botonesAdmin">
+        <ul id="navPrincipal">
+          <li>
+            <a id="aMayorDuracion">Reporte de receta con mayor Duración</a>
+          </li><br>
+          <li>
+            <a id="aDadoUnTiempo">Reporte de recetas dado un tiempo</a><br>
+          </li><br>
+          <li>
+            <a id="aMejorRaiting">Reporte de Recetas con mejor Raiting</a>
+          </li><br>
+        </ul>
+      </div>
+      <br>
+
+      <div id="inicioSesion">
+        <input type="text" id="txtNombreUsuario" placeHolder="Nombre de Usuario"><br>
+        <input type="password" id="txtContraseña" placeHolder="Contraseña"><br><br>
+        <input type="button" id="btnInicio" value="Iniciar Sesión"><br>
+        <p id="pInicioSesion"> </p>
+      </div>
+      <div id="divBtnVolver"><input id="btnVolver" type="button" value="Volver"></div>
+    </div><!-- FIN CABEZAL -->
+   
+    <div id="divRep2" align="center">
+      <br><br>
+      <input type="number" id="txtTiempoReporte2" placeholder="Ingrese el tiempo"><br><br>
+      <input type="button" value="Mostrar" id="btnMostrarReporte2">
+      <p id="pDadoUnTiempo"><b></b></p>
+
+    </div>
+    <div id="contenido">
+
+      <div id="buscarRecetas">
+        <h1>Buscador de Recetas</h1>
+        <input type="text" id="txtBuscarReceta" placeholder="Bucar Receta"><br>
+        <input type="button" id="btnBuscaRecetas" value="Buscar">
+        <p id="pMostrarNoResultBusqueda"></p>
+        <hr>
+        <hr>
+      </div>
+
+      <div id="altaReceta">
+        <h1>Agregar Receta</h1><br>
+        <input type="text" id="txtTitulo" placeholder="Titulo"><br>
+        <input type="file" id="fileFoto" placeholder="Ingresar una foto"><br>
+        <input type="number" id="txtTiempo" placeholder="Tiempo"><br>
+        <input type="text" id="txtDescripcion" placeholder="Agregar Descripción" maxlength="150"><br>
+        <input type="button" id="btnAgregarReceta" value="Ingresar Receta">
+        <p id="pReceta"></p>
+      </div>
+
+      <div id="altaColaborador">
+        <h1>Agregar Colaborador</h1><br>
+        <input type="text" id="txtNombre" placeholder="Ingresar Nombre"><br>
+        <input type="text" id="txtApellido" placeholder="Ingresar Apelliido"><br>
+        <input type="button" id="btnAgregarColaborador" value="Ingresar Colaborador">
+        <p id="pColaborador"></p>
+      </div>
+
+      <div id="tablaUsuarios">
+        <table id="tblUsuarios" border="1"></table>
+      </div>
+
+      <div id="muroRecetas">
+      </div>
+
+    </div><!-- FIN CONTENIDO -->
+    <div id="pie">
+      <a><div align="center">Obligatorio - Programación 1 - 2020-07-01</div></a>
+    </div><!-- FIN PIE -->
+  </div><!-- FIN CONTENEDOR -->
+</body>
+
+</html>
