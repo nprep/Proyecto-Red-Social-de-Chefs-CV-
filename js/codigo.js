@@ -30,7 +30,7 @@ function eventosDeClick() {
 
 /* Precarga de datos de los usuarios. */
 function precargarDatos() {
-    let c1 = altaColaboradores("Pepe", "Pepe", "jrodriguez", "j-rodriguez", false);
+    let c1 = altaColaboradores("Pepe", "Pepe", "pepe", "p-pepe", false);
     let c2 = altaColaboradores("Roberto", "Perez", "rperez", "r-perez", true);
     let c3 = altaColaboradores("Susana", "Del Toro", "sdeltoro", "s-deltoro", false);
     let c4 = altaColaboradores("Maria", "Duarte", "mduarte", "m-duarte", true);
