@@ -1,4 +1,4 @@
-## Bienvenido al respositorio oficial de la Red Social para Chefs!
+## Bienvenidos al respositorio de la Red Social para Chefs!
 
 Es recomendable usar un editor de texto o IDE para poder ver, debbugear y editar el código fuente, puedes utilizar el que más te guste, ATOM, Visual Studio Code, Eclipse.
 
