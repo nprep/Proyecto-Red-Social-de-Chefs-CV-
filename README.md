@@ -9,3 +9,17 @@ No es nescesario instalar ni compilar ningún nada, el sistema se ejecuta diréc
 #### Intruducción:
 
 La Red Social de Chefs nace de un proyecto estudiantíl de programación. Usted es libre de descargar y ver el código fuente.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Welcome to the repository of the Social Network for Chefs!
+
+It is recommended to use a text editor or IDE to be able to see, debug and edit the source code, you can use the one you like the most, ATOM, Visual Studio Code, Eclipse.
+
+
+#### ** Installation **
+It is not necessary to install or compile anything, the system runs directly in the web browser, just double-click on the .HTML file and that's it! The system does not have any database or back-end system, it is only front end programmed in JavaScript, with HTML and CSS.
+
+#### Introduction:
+
+The Chefs Social Network was born from a student programming project. You are free to download and view the source code.
