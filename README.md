@@ -17,7 +17,7 @@ La Red Social de Chefs nace de un proyecto estudiantíl de programación. Usted 
 It is recommended to use a text editor or IDE to be able to see, debug and edit the source code, you can use the one you like the most, ATOM, Visual Studio Code, Eclipse.
 
 
-#### ** Installation **
+#### Installation
 It is not necessary to install or compile anything, the system runs directly in the web browser, just double-click on the .HTML file and that's it! The system does not have any database or back-end system, it is only front end programmed in JavaScript, with HTML and CSS.
 
 #### Introduction:
